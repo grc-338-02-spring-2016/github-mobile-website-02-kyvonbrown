@@ -13,6 +13,7 @@ h3 {
     font-family: 'Helvetica', sans-serif;
     font-weight: 400;
     font-size: 1em;
+    text-align: center;
 }
 
 h4 {
@@ -262,3 +263,61 @@ footer {
     color: white;
 }
 
+/*Contact Page*/
+
+/*Contact 1*/
+.con1 h3 {
+    margin: 20px 0; 
+}
+
+/*Contact 2*/
+.con2 h3 {
+    font-size: 1.5em;
+    text-align: left;
+    padding-left: 5%;
+    margin-bottom: 10px;;
+}
+
+.con2 p{
+    color: #56a4ab;
+    font-size: .7em;
+    line-height: 150%;
+    padding-left: 5%;
+    margin-bottom: 20px;
+}
+
+.con3 {
+    padding: 10% 0 0 25%;
+    text-align: left;
+    color: #dc6026;
+    height: 20vh;
+}
+
+.con3 li {
+    line-height: 1.5em;
+    display: block;
+    width: 75%;
+}
+
+.con3 a {
+    padding-left: 10px;
+    color: #dc6026;
+    text-decoration: none;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -o-transition: .1s;
+    transition: .1s;
+}
+
+.res a:visited {
+    color: #dc6026;
+}
+
+.res a:hover, a:focus {
+    color: #dc6026;
+    opacity: .5;
+}
+
+.res a:active {
+    color: #dc6026;
+}
