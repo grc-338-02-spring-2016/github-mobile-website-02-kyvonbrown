@@ -8,6 +8,13 @@ h1 {
     color: #56a4ab;
 }
 
+h3 {
+    color: #56a4ab;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
 h4 {
     font-family: 'Helvetica', sans-serif;
     font-weight: 200;
@@ -102,7 +109,6 @@ nav a:active {
 .text {
     height: 90%;
     width: 59%;
-    z-index: 999;
     margin-left: 5%
 }
 .sec2 img {
@@ -112,8 +118,7 @@ nav a:active {
     z-index: 0;
 }
 
-.sec2 a {
-    color: white;
+.text a {
     text-decoration: none;
     font-weight: bold;
     -webkit-transition: .1s;
@@ -122,15 +127,15 @@ nav a:active {
     transition: .1s;
 }
 
-.sec2 a:visited {
+.text a:visited {
     color: white;
 }
 
-.sec2 a:hover, a:focus {
+.text a:hover, a:focus {
     color: rgba(255,255,255,.5);
 }
 
-.sec2 a:active {
+.texts a:active {
     color: white;
 }
 
@@ -180,3 +185,80 @@ footer {
 .right a:active {
     color: #56a4ab;
 }
+
+/*Work Page*/
+
+/*Resume Section*/
+.res {
+    text-align: center;
+    padding: 20px 0 30px 0;
+}
+
+.res h3 {
+    margin-bottom: 20px;
+}
+
+.res a {
+    padding: 10px 15px;
+    color: #56a4ab;
+    text-decoration: none;
+    border: 1.5px solid #56a4ab;
+    border-radius: 10px;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -o-transition: .1s;
+    transition: .1s;
+}
+
+.res a:visited {
+    color: #56a4ab;
+}
+
+.res a:hover, a:focus {
+    color: #fff;
+    background: #56a4ab;
+    border: 0;
+}
+
+.res a:active {
+    color: #56a4ab;
+    border: 1.5px solid #56a4ab;
+    background: transparent;
+}
+
+/*Portfolio Section*/
+.port {
+    background: #56a4ab;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    height: 105em;
+}
+
+.port h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.port ul {
+    text-align: center;
+    width: 80%;
+    margin-left: 12%;
+}
+.images img{
+    width: 30vh;
+    height: 30vh;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.images li {
+    display: inline-block; 
+    float: left;
+    width: auto;
+    margin: .5em;
+    font-family: 'Helvetica', sans-serif;
+    line-height: 1.5em;
+    color: white;
+}
+
