@@ -261,8 +261,11 @@ footer {
 /*Contact Page*/
 
 /*Contact 1*/
+.con1 {
+    height: 90px;
+}
 .con1 h3 {
-    margin: 20px 0; 
+    margin: 20px 0 20px -17px; 
 }
 
 /*Contact 2*/
@@ -270,7 +273,7 @@ footer {
     font-size: 1.5em;
     text-align: left;
     padding-left: 5%;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
 }
 
 .con2 p{
@@ -278,25 +281,29 @@ footer {
     font-size: .7em;
     line-height: 150%;
     padding-left: 5%;
+    width: 90%;
     margin-bottom: 20px;
 }
 
 .con3 {
-    padding: 10% 0 0 25%;
+    background: #dc6026;
     text-align: left;
-    color: #dc6026;
-    height: 20vh;
+    color: #fff;
+    height: 100%;
+    padding: 30px 0;
 }
 
-.con3 li {
+.con3 p {
+    padding-left: 19%;
+    text-align: left;
+    font-size: 1em;
     line-height: 1.5em;
-    display: block;
-    width: 75%;
+    width: 70%;
 }
 
 .con3 a {
     padding-left: 10px;
-    color: #dc6026;
+    color: #fff;
     text-decoration: none;
     -webkit-transition: .1s;
     -moz-transition: .1s;
@@ -305,16 +312,16 @@ footer {
 }
 
 .con3 a:visited {
-    color: #dc6026;
+    color: #fff;
 }
 
 .con3 a:hover, .con3 a:focus {
-    color: #dc6026;
+    color: #fff;
     opacity: .5;
 }
 
 .con3 a:active {
-    color: #dc6026;
+    color: #fff;
 }
 
 /*For ladscape Phone*/
@@ -343,6 +350,15 @@ footer {
     right: 10%;
 }
     
+/*Contact*/
+/*Contact 2*/
+.con3 p {
+    padding-left: 35%;
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.5em;
+    width: 70%;
+}
 }
 /*For Tablets*/
 @media only screen and (min-width:768px) {
@@ -405,7 +421,7 @@ footer {
     min-width: 200px;
     width: 50%;
 }
-    
+
 }
 
 /*For Desktop*/
