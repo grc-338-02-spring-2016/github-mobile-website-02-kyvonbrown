@@ -128,11 +128,8 @@ nav a:hover {
 }
 
 .text a:hover, a:focus {
-    color: rgba(255,255,255,.5);
-}
-
-.texts a:active {
     color: white;
+    opacity: .5;
 }
 
 /*Footer*/
@@ -262,13 +259,18 @@ footer {
 
 /*Contact 1*/
 .con1 {
-    height: 90px;
+    width: 100%;
+    padding: 20px 0 30px 0;
+    text-align: center;
 }
 .con1 h3 {
-    margin: 20px 0 20px -17px; 
+    margin-left: -10px;
+    width: 100%;
 }
-
 /*Contact 2*/
+.con2 {
+    width: 100%;
+}
 .con2 h3 {
     font-size: 1.5em;
     text-align: left;
@@ -294,11 +296,10 @@ footer {
 }
 
 .con3 p {
-    padding-left: 19%;
+    padding-left: 20%;
     text-align: left;
     font-size: 1em;
     line-height: 1.5em;
-    width: 70%;
 }
 
 .con3 a {
@@ -325,7 +326,7 @@ footer {
 }
 
 /*For ladscape Phone*/
-@media only screen and (min-width:667px) {
+@media only screen and (min-width:640px) {
 /*Home*/
     
 /*Section 1*/
@@ -337,8 +338,8 @@ footer {
     margin-left: 10%;
 }
 .sec2 img {
-    right: 15vw;
-    height: 100vh;
+    right: 10%;
+    height: 350px;
 }
     
 /*Footer*/
@@ -352,12 +353,20 @@ footer {
     
 /*Contact*/
 /*Contact 2*/
+    .con2 {
+        padding-left: 5%;
+        width: 90%;
+    }
+    .con2 p {
+        font-size: .8em;
+    }
+/*Contact 3*/
 .con3 p {
     padding-left: 35%;
     text-align: left;
     font-size: 1em;
     line-height: 1.5em;
-    width: 70%;
+    width: 50%;
 }
 }
 /*For Tablets*/
@@ -398,8 +407,8 @@ nav li {
 }
     
 .sec2 img {
-    right: 15vw;
-    height: 65vh;
+    right: 10%;
+    height: 700px;
 }
 /*Footer*/
 footer {
@@ -421,10 +430,33 @@ footer {
     min-width: 200px;
     width: 50%;
 }
-
+    
+/*Contact*/
+/*Contact 2*/
+    .con2 p {
+        font-size: 1em;
+    }
+    .con2 {
+        padding-left: 5%;
+        width: 90%;
+    }
+/*Contact 3*/
+    .con3 p {
+        padding-left: 35%;
+    }
 }
 
 /*For Desktop*/
 @media only screen and (min-width: 1024px) {
-    
+/*Home*/
+/*Section 2*/
+.sec2 img {
+    right: 2%;  
+    height: 600px;
+}
+/*Contact*/
+/*Contact 3*/
+    .con3 p {
+        padding-left: 40%;
+    }  
 }
